@@ -70,6 +70,7 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
+    <Content Include="IndexStyling.css" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
