@@ -1,5 +1,6 @@
 ﻿body {
    background-color: lightgray;
+
 }
   
 p {
@@ -33,7 +34,7 @@ nav ul {
 
 nav li::after:hover {
     background-color: darkblue;
-    }
+}
 
 nav ul li {
     display: inline-block;
