@@ -1,10 +1,16 @@
 ﻿body {
-   
+   background-color: lightgray;
 
 }
   
 p {
-    background-color: darkblue;
+    color: black;
 }
 
+.h1font {
+    font: bold;
+}
 
+.h1font {
+    font-style: italic;
+}
