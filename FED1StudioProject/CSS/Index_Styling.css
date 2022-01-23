@@ -79,3 +79,7 @@ p {
 h1 {
     font-family: 'Dongle', sans-serif;
 }
+
+.fas fa-address-card {
+    color: darkblue;
+}
