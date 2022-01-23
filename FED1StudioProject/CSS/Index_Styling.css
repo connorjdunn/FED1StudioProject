@@ -1,5 +1,18 @@
-﻿body {
-   background-color: lightgray;
+﻿
+/*Color Pallete with Descriptions
+    CB997E - Dark Tanish
+    DDBEA9 - Salmonish
+    FFE8D6 - Tan
+    B7B7A4 - Light Gray 
+    A5A58D - Darker Gray
+    6B705C - Darkest Gray
+    lemonchiffon
+    black
+*/
+
+
+body {
+   background-color: #FFE8D6;
 
 }
   
@@ -26,14 +39,14 @@ nav a {
 
 
 nav ul {
-    background-color: maroon;
+    background-color: #DDBEA9;
     padding: 0;
-    border-top: 2px dotted darkgray;
-    border-bottom: 2px dotted darkgray;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
 }
 
 nav li::after:hover {
-    background-color: darkblue;
+    background-color: #CB997E;
 }
 
 nav ul li {
