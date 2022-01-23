@@ -8,8 +8,10 @@
     6B705C - Darkest Gray
     lemonchiffon
     black
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Outfit', sans-serif;
 */
-
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Outfit:wght@100;400&display=swap"); 
 
 body {
    background-color: #FFE8D6;
@@ -57,3 +59,23 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
+
+.articleBackground {
+    background-color: #6B705C;
+}
+
+    h2 {
+        color: #B7B7A4;
+    }
+
+    h1 {
+        color: #6B705C;
+    }
+
+p {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-family: 'Dongle', sans-serif;
+}
