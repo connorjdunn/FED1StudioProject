@@ -70,8 +70,15 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="CSS\Index_Styling.css" />
+    <Content Include="Images\backgorund_image.jfif" />
+    <Content Include="Images\bmw.jfif" />
+    <Content Include="Images\carborator.jfif" />
     <Content Include="Images\contacts.png" />
+    <Content Include="Images\harley.jfif" />
     <Content Include="Images\logoimage.jpg" />
+    <Content Include="Images\honda.jfif" />
+    <Content Include="Images\triumph.jfif" />
+    <Content Include="Images\yamaha2.jfif" />
     <Content Include="index.html" />
     <Content Include="Team.html" />
     <Content Include="Web.config" />

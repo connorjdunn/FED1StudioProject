@@ -16,6 +16,8 @@
 
 body {
    background-color: #FFE8D6;
+   background: url(../Images/backgorund_image.jfif);
+   background-size: cover;
 }
   
 p {
@@ -87,4 +89,48 @@ h1 {
 .linkColor {
     color: lemonchiffon;
     background-color: #6B705C
+}
+
+/*Gallery Items*/
+
+div.galleryItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+    div.galleryItem:hover {
+        border: 1px solid lemonchiffon;
+    }
+
+    div.galleryItem img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.galleryItem a:hover {
+        background-color: lemonchiffon;
+    }
+
+#imageGallery {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+.galleryItem {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+    /* On mouse-over, add a deeper shadow */
+    .galleryItem:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/* Add some padding inside the card container */
+.galleryContainer {
+    padding: 2px 16px;
 }
