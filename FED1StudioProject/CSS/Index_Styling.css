@@ -32,6 +32,7 @@ p {
     font-style: italic;
 }
 
+/*Nav Bar*/
 nav a {
     font-weight: bold;
     color: lemonchiffon;
@@ -45,16 +46,16 @@ nav a {
 nav ul {
     background-color: #DDBEA9;
     padding: 0;
-    border-top: 2px solid darkgray;
-    border-bottom: 2px solid darkgray;
+    border: 2px solid lemonchiffon;
 }
 
-nav li::after:hover {
+nav li:hover {
     background-color: #CB997E;
 }
 
 nav ul li {
     display: inline-block;
+    padding: 5px 2.5px;
 }
 
     nav ul li a {
@@ -138,4 +139,21 @@ div.galleryItem {
 /* Add some padding inside the card container */
 .galleryContainer {
     padding: 2px 16px;
+}
+
+
+/*Box Elements*/
+
+head {
+    background-color: #FFE8D6;
+}
+
+.marginHeader {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sectionBorder {
+    border: 2px solid lemonchiffon;
+    background-color: #DDBEA9;
 }
