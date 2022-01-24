@@ -157,3 +157,44 @@ head {
     border: 2px solid lemonchiffon;
     background-color: #DDBEA9;
 }
+
+/*Table*/
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse; /*Avoids duplicate adjacent borders inside the table.*/
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #DDBEA9;
+}
+
+tfoot {
+    background-color: #DDBEA9;
+}
+
+    tfoot tr, tfoot td {
+        border: 0;
+    }
+
+tbody tr:nth-child(even) {
+    background-color: #DDBEA9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #DDBEA9;
+}
