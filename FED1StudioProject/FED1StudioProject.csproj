@@ -74,6 +74,8 @@
     <Content Include="Images\bmw.jfif" />
     <Content Include="Images\carborator.jfif" />
     <Content Include="Images\contacts.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\contactsimage.png" />
     <Content Include="Images\harley.jfif" />
     <Content Include="Images\logoimage.jpg" />
     <Content Include="Images\honda.jfif" />
