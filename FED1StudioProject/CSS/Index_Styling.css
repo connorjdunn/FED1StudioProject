@@ -142,7 +142,7 @@ div.galleryItem {
 }
 
 
-/*Box Elements*/
+
 
 head {
     background-color: #FFE8D6;
@@ -197,4 +197,15 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
     background-color: #DDBEA9;
+}
+
+div#danContent {
+    float: right;
+    width: 75%;
+    margin: auto;
+}
+div#danImage {
+    float: left;
+    width: 25%;
+    margin: auto;
 }
