@@ -32,6 +32,10 @@ p {
     font-style: italic;
 }
 
+footer {
+    background-color: #6B705C;
+}
+
 /*Nav Bar*/
 nav a {
     font-weight: bold;
@@ -94,11 +98,16 @@ h1 {
 
 /*Gallery Items*/
 
+.galleryArticle {
+    text-align: center;
+}
+
 div.galleryItem {
     margin: 5px;
     border: 1px solid #ccc;
     display: inline-block;
     width: 350px;
+    
 }
 
     div.galleryItem:hover {
@@ -107,7 +116,7 @@ div.galleryItem {
 
     div.galleryItem img {
         width: 100%;
-        height: auto;
+       height: auto;
     }
 
     div.galleryItem a:hover {
@@ -137,9 +146,9 @@ div.galleryItem {
     }
 
 /* Add some padding inside the card container */
-.galleryContainer {
-    padding: 2px 16px;
-}
+/*.galleryContainer {
+    padding: 2px 16px; }*/
+
 
 
 
@@ -203,9 +212,63 @@ div#danContent {
     float: right;
     width: 75%;
     margin: auto;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 250px;
+    border: 2px solid black;
 }
+
 div#danImage {
     float: left;
     width: 25%;
     margin: auto;
+}
+
+#clear {
+    clear: both;
+}
+
+div#malloryContent {
+    float: right;
+    width: 75%;
+    margin: auto;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 350px;
+    border: 2px solid black;
+}
+
+#clear {
+    clear: both;
+}
+
+div#malloryImage {
+    float: left;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+}
+
+div#benContent {
+    float: right;
+    width: 75%;
+    margin: auto;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 350px;
+    border: 2px solid black;
+}
+
+div#benImage {
+    float: left;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    bottom: 125px;
+    
+}
+
+#clear {
+    clear: both;
 }
