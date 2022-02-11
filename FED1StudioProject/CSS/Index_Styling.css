@@ -209,70 +209,89 @@ tbody tr:nth-child(odd) {
     background-color: #DDBEA9;
 }
 
-div#danContent {
+/*Teams Page*/
+
+.bigDiv{
+    display: inline-block;
+    width: 70em;
+    height: 30em;
+}
+
+.bigDiv #danImage {
+    float: left;
+    width: 35%;
+    margin: auto;
+}
+.bigDiv #danContent {
     float: right;
-    width: 55%;
+    width: 85%;
     margin: auto;
     background-color: aliceblue;
-    position: relative;
-    bottom: 250px;
+    
     border: 2px solid black;
-    right: 400px;
+   
 }
 
-div#danImage {
-    float: left;
-    width: 25%;
-    margin: auto;
-}
 
-#clear {
+/*#clear {
     clear: both;
+}*/
+
+.bigDiv2 {
+    display: inline-block;
+    width: 70em;
+    height: 30em;
 }
 
-div#malloryContent {
+.bigDiv2 #malloryImage {
+    display: inline-block;
+    float: left;
+    width: 35%;
+    margin: auto;
+
+}
+
+.bigDiv2 #malloryContent {
+    display: inline-block;
     float: right;
     width: 75%;
-    margin: auto;
+    margin-left: 50px;
+    margin-bottom: 50px;
     background-color: aliceblue;
-    position: relative;
-    bottom: 350px;
     border: 2px solid black;
 }
 
-#clear {
+/*#clear {
     clear: both;
+}*/
+
+.bigDiv3 {
+    display: inline-block;
+    width: 70em;
+    height: 30em;
 }
 
-div#malloryImage {
+.bigDiv3 #benImage {
     float: left;
-    width: 25%;
+    width: 35%;
     margin: auto;
-    position: relative;
-    bottom: 80px;
+
 }
 
-div#benContent {
+
+.bigDiv3 #benContent {
     float: right;
-    width: 75%;
+    width: 85%;
     margin: auto;
     background-color: aliceblue;
-    position: relative;
-    bottom: 350px;
-    border: 2px solid black;
-}
 
-div#benImage {
-    float: left;
-    width: 25%;
-    margin: auto;
-    position: relative;
-    bottom: 125px;
+    border: 2px solid black;
 }
 
 #clear {
     clear: both;
 }
+
 
 /*Top home page*/
 
