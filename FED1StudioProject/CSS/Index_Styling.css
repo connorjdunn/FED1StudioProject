@@ -217,15 +217,16 @@ tbody tr:nth-child(odd) {
     height: 30em;
 }
 
-.bigDiv #danImage {
+    .bigDiv #danImage {
+        float: left;
+        width: 18%;
+        margin: auto;
+        
+    }
+.bigDiv .danContent {
     float: left;
-    width: 35%;
-    margin: auto;
-}
-.bigDiv #danContent {
-    float: right;
-    width: 85%;
-    margin: auto;
+    width: 75%;
+    
     background-color: aliceblue;
     
     border: 2px solid black;
@@ -243,20 +244,19 @@ tbody tr:nth-child(odd) {
     height: 30em;
 }
 
-.bigDiv2 #malloryImage {
-    display: inline-block;
-    float: left;
-    width: 35%;
-    margin: auto;
-
-}
+    .bigDiv2 #malloryImage {
+        display: inline-block;
+        float: left;
+        width: 18%;
+        margin: auto;
+        
+    }
 
 .bigDiv2 #malloryContent {
     display: inline-block;
-    float: right;
+    float: left;
     width: 75%;
-    margin-left: 50px;
-    margin-bottom: 50px;
+   
     background-color: aliceblue;
     border: 2px solid black;
 }
@@ -271,17 +271,19 @@ tbody tr:nth-child(odd) {
     height: 30em;
 }
 
-.bigDiv3 #benImage {
-    float: left;
-    width: 35%;
-    margin: auto;
-
-}
+    .bigDiv3 #benImage {
+        display: inline-block;
+        float: left;
+        width: 18%;
+        margin: auto;
+        
+    }
 
 
 .bigDiv3 #benContent {
-    float: right;
-    width: 85%;
+    display: inline-block;
+    float: left;
+    width: 75%;
     margin: auto;
     background-color: aliceblue;
 
