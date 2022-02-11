@@ -8,6 +8,7 @@
     <meta name="author" content="Connor Dunn" />
     <link href="CSS/Index_Styling.css" rel="stylesheet" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -15,9 +16,11 @@
     <main>
         <header>
 
-            <h1>Motorcycle Mechanic Training</h1>
+            <div class="marginHeader">
+                <img src="Images/logoimage.jpg" style="width: 150px" alt="Open book" />
 
-            <p>Meet the team!</p>
+                <h1>Motorcycle Mechanic Training</h1>
+            </div>
 
 
             <nav>
@@ -29,10 +32,10 @@
                         <a href="Classes.html">Classes</a>
                     </li>
                     <li>
-                        <a href="Contact.html">Contact</a>
+                        <a href="Team.html">Team</a>
                     </li>
                     <li>
-                        <a href="Team.html">Team</a>
+                        <a href="Contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -46,14 +49,14 @@
                 <h2>Team Page</h2>
 
                 <div id="danImage">
-                    <div class="teamsGallery">
+                    
                         <div class="teamsContainer">
                             <a href="Images/pexels-antoni-shkraba-5794247 (1).jpg" target="blank">
                                 <img src="Images/pexels-antoni-shkraba-5794247 (1).jpg" alt="Dan Smith" title="Dan Smith" width="200" height="300" />
 
                             </a>
                         </div>
-                    </div>
+                   
                 </div>
 
                 <div id="clear"></div>
@@ -74,14 +77,14 @@
                 <div id="clear"></div>
 
                 <div id="malloryImage">
-                    <div class="teamsGallery">
+                    
                         <div class="teamsContainer">
                             <a href="Images/pexels-ekaterina-belinskaya-4922628.jpg" target="blank">
                                 <img src="Images/pexels-ekaterina-belinskaya-4922628.jpg" alt="Mallory Scott" title="Mallory Scott" width="200" height="300" />
 
                             </a>
                         </div>
-                    </div>
+                    
                 </div>
 
                 <div id="clear"></div>
@@ -100,14 +103,14 @@
                 </div>
 
                 <div id="benImage">
-                    <div class="teamsGallery">
+                    
                         <div class="teamsContainer">
                             <a href="Images/pexels-nick-wehrli-4054069.jpg" target="blank">
                                 <img src="Images/pexels-nick-wehrli-4054069.jpg" alt="Ben Crane" title="Dan Smith" width="200" height="300" />
 
                             </a>
                         </div>
-                    </div>
+                    
                 </div>
 
                 <div id="clear"></div>
@@ -128,8 +131,13 @@
 
     </main>
 
-    <footer>
-        &copy;Copyright 2022 Motorcycle Mechanic Training
+    <footer id="indexFooter">
+        <div class="socialMedia">
+            <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+        </div>
+        &copy;Copyright 2022 Connor Dunn
         <br />
     </footer>
 
