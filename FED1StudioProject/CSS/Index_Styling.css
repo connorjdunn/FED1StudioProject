@@ -1,11 +1,11 @@
 ﻿
 /*Color Pallete with Descriptions
-    CB997E - Dark Tanish
-    DDBEA9 - Salmonish
-    FFE8D6 - Tan
-    B7B7A4 - Light Gray 
-    A5A58D - Darker Gray
-    6B705C - Darkest Gray
+    #CB997E - Dark Tanish
+    #DDBEA9 - Salmonish
+    #FFE8D6 - Tan
+    #B7B7A4 - Light Gray 
+    #A5A58D - Darker Gray
+    #6B705C - Darkest Gray
     lemonchiffon
     black
     Imported Fonts
@@ -36,6 +36,11 @@ footer {
     background-color: #6B705C;
 }
 
+.headerText {
+    color: lemonchiffon
+}
+
+
 /*Nav Bar*/
 nav a {
     font-weight: bold;
@@ -48,7 +53,7 @@ nav a {
 
 
 nav ul {
-    background-color: #DDBEA9;
+    background-color: #6B705C;
     padding: 0;
     border: 2px solid lemonchiffon;
 }
@@ -66,6 +71,9 @@ nav ul li {
         padding: .4em 1em;
         display: block;
     }
+
+
+
 
 .articleBackground {
     background-color: #6B705C;
@@ -162,10 +170,7 @@ head {
     background-color: #FFE8D6;
 }
 
-.marginHeader {
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 .sectionBorder {
     border: 2px solid lemonchiffon;
@@ -321,8 +326,9 @@ div #aboutUsIntro p {
 }
 
 #topRightText {
-    float: right;
-    width: 68%;
+    float: left;
+    width: 50%;
+    margin-left: 250px;
 
 }
 
@@ -332,6 +338,7 @@ div #aboutUsIntro p {
 .textRight {
     float: right;
     width: 50%;
+    margin: auto;
 }
 
 .aboutUsMain {
@@ -386,4 +393,19 @@ div #aboutUsIntro p {
 .socialMedia3 {
     float: right;
     margin: auto;
+}
+
+/*Contact Us Info*/
+
+.contactFav {
+    /*margin-left: 700PX;*/
+    text-align: center;
+}
+
+.contactContent {
+    text-align: center;
+}
+
+.contactContent p {
+    color: lemonchiffon
 }
