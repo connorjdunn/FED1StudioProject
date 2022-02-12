@@ -58,144 +58,306 @@
 
 
 
-        <article class="galleryArticle">
-            <section>
-                <!-- TODO: move gallery images in the order you want -->
-                <h3>Classes Offered</h3>
-                <div>
-                    <div class="galleryItem">
-                        <a href="Images/harley.jfif" target="blank">
-                            <img src="Images/harley.jfif" alt="Harley Davidson motorcycle" title="Harley Davidson" width="600" height="400" />
-                            <h4>Intro to Harley Davidson</h4>
-                            <p>In this course you will learn how to work on Harley Davidson motorcycles</p>
-                        </a>
-
-                    </div>
-
-                    <div class="galleryItem">
-                        <div class="galleryContainer">
-                            <a href="Images/yamaha2.jfif" target="blank">
-                                <img src="Images/yamaha2.jfif" alt="Yamaha motorcycle" title="Yamaha" width="600" height="400" />
-                                <h4><b>Intro to Yamaha</b></h4>
-                                <p>In this course you will learn how to work on Yamaha motorcycles</p>
+        <div id="galleryBackground">
+            <article class="galleryArticle">
+                <section>
+                    <!-- TODO: move gallery images in the order you want -->
+                    <h3>Classes Offered</h3>
+                    <div>
+                        <div class="galleryItem">
+                            <a href="#harleyLinkTable">
+                                <img src="Images/harley.jfif" alt="Harley Davidson motorcycle" title="Harley Davidson" width="600" height="400" />
+                                <h4>Intro to Harley Davidson</h4>
+                                <p>In this course you will learn how to work on Harley Davidson motorcycles</p>
                             </a>
+
                         </div>
+
+                        <div class="galleryItem">
+                            <div class="galleryContainer">
+                                <a href="#yamahaLinkTable">
+                                    <img src="Images/yamaha2.jfif" alt="Yamaha motorcycle" title="Yamaha" width="600" height="400" />
+                                    <h4><b>Intro to Yamaha</b></h4>
+                                    <p>In this course you will learn how to work on Yamaha motorcycles</p>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="galleryItem">
+                            <div class="galleryContainer">
+                                <a href="#bmwTableLink">
+                                    <img src="Images/bmw.jfif" alt="BMW motorcycle" title="BMW" width="600" height="400" />
+                                    <h4>Intro to BMW</h4>
+                                    <p>In this course you will learn to work on BMW motorcycles</p>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
 
-
-                    <div class="galleryItem">
-                        <div class="galleryContainer">
-                            <a href="Images/bmw.jfif" target="blank">
-                                <img src="Images/bmw.jfif" alt="BMW motorcycle" title="BMW" width="600" height="400" />
-                                <h4>Intro to BMW</h4>
-                                <p>In this course you will learn to work on BMW motorcycles</p>
-                            </a>
+                    <div>
+                        <div class="galleryItem">
+                            <div class="galleryContainer">
+                                <a href="#hondaTableLink">
+                                    <img src="Images/honda.jfif" alt="Honda motorcycle" title="Honda" width="600" height="400" />
+                                    <h4>Intro to Honda</h4>
+                                    <p>In this course you will learn to work on Honda Motorcycles</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-
-                <div>
-                    <div class="galleryItem">
-                        <div class="galleryContainer">
-                            <a href="Images/honda.jfif" target="blank">
-                                <img src="Images/honda.jfif" alt="Honda motorcycle" title="Honda" width="600" height="400" />
-                                <h4>Intro to Honda</h4>
-                                <p>In this course you will learn to work on Honda Motorcycles</p>
-                            </a>
+                        <div class="galleryItem">
+                            <div class="galleryContainer">
+                                <a href="#triumphTableLink">
+                                    <img src="Images/triumph.jfif" alt="Triumph motorcycle" title="Triumph" width="600" height="400" />
+                                    <h4>Intro to Triumph</h4>
+                                    <p>In this course you will learn to work on Triumph Motorcycles</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="galleryItem">
-                        <div class="galleryContainer">
-                            <a href="Images/triumph.jfif" target="blank">
-                                <img src="Images/triumph.jfif" alt="Triumph motorcycle" title="Triumph" width="600" height="400" />
-                                <h4>Intro to Triumph</h4>
-                                <p>In this course you will learn to work on Triumph Motorcycles</p>
-                            </a>
+
+                        <div class="galleryItem">
+                            <div class="galleryContainer">
+                                
+                                <a href="#carbsLinkTable">
+                                    <img src="Images/carborator.jfif" alt="Carborator" title="Carborators 101" width="600" />
+                                    <h4>Carborators 101</h4>
+                                    <p>In this course you will learn to work on carborators</p>
+                                </a>
+                            </div>
                         </div>
+
                     </div>
+                </section>
+            </article>
 
+          
+            <!-- Tables -->
 
-                    <div class="galleryItem">
-                        <div class="galleryContainer">
-                            <a href="Images/carborator.jfif" target="blank">
-                                <img src="Images/carborator.jfif" alt="Carborator" title="Carborators 101" width="600" />
-                                <h4>Carborators 101</h4>
-                                <p>In this course you will learn to work on carborators</p>
-                            </a>
-                        </div>
-                    </div>
+            <div>
+                <table id="harleyLinkTable">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Intro to Harley Davidson</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="harleyTable">
+                            <td>Dan Smith</td>
+                            <td>Monday-Tuesday</td>
+                            <td>8 A.M. - 1 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div>
+                <table id="yamahaLinkTable">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Intro to Yamaha</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="yamahaTable">
+                            <td>Dan Smith</td>
+                            <td>Tuesday-Wednesday</td>
+                            <td>2 P.M. - 5 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
 
-                </div>
-            </section>
-        </article>
+            <div>
+                <table id="bmwTableLink">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Intro to BMW</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bmwTable">
+                            <td>Dan Smith</td>
+                            <td>Thursday-Friday</td>
+                            <td>8 A.M. - 1 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
 
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <!--the cell below "accounts for" 3 cells by merging them using colspan-->
-                        <th colspan="3">Classes Offered</th>
-                    </tr>
-                    <tr>
-                        <th>Class</th>
-                        <th>Instructor</th>
-                        <th>Meets</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="dansmithClasstablecolor">
-                        <td>Intro to Harley Davison</td>
-                        <td>Dan Smith</td>
-                        <td>M-T 8-1</td>
-                    </tr>
-                    <tr class="dansmithClasstablecolor">
-                        <td>Intro to Yamaha</td>
-                        <td>Dan Smith</td>
-                        <td>T-W 2-5</td>
-                    </tr>
-                    <tr class="dansmithClasstablecolor">
-                        <td>Intro to BMW</td>
-                        <td>Dan Smith</td>
-                        <td>T-F 8-1</td>
-                    </tr>
-                    <tr class="malloryscottClasstablecolor">
-                        <td>Intro to Honda</td>
-                        <td>Mallory Scott</td>
-                        <td>M-T 8-1</td>
-                    </tr>
-                    <tr class="malloryscottClasstablecolor">
-                        >
-                        <td>Intro to Triumph</td>
-                        <td>Mallory Scott</td>
-                        <td>T-W 2-5</td>
-                    </tr>
-                    <tr class="malloryscottClasstablecolor">
-                        >
-                        <td>Carborators 101</td>
-                        <td>Mallory Scott</td>
-                        <td>T-F 2-5</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
-                        <!-- The cell below merges two rows -->
-                        <td rowspan="2" style="text-align: right;">
-                            <span class="bold italic">
-                                All<br />Rights<br />Reserved
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <img src="../images/CentriqLogo.png" style="height: 25px" />
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div>
+                <table id="hondaTableLink">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Intro to Honda</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hondaTable">
+                            <td>Mallory Scott</td>
+                            <td>Monday-Tuesday</td>
+                            <td>8 A.M. - 1 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div>
+                <table id="triumphTableLink">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Intro to Triumph</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="triumphTable">
+                            <td>Mallory Scott</td>
+                            <td>Tuesday-Wednesday</td>
+                            <td>2 P.M. - 5 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div>
+                <table id="carbsLinkTable">
+                    <thead>
+                        <tr>
+                            <!--the cell below "accounts for" 3 cells by merging them using colspan-->
+                            <th colspan="3">Carborators 101</th>
+                        </tr>
+                        <tr>
+                            <th>Instructor</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="carbsTable">
+                            <td>Dan Smith</td>
+                            <td>Thursday-Friday</td>
+                            <td>2 P.M. - 5 P.M.</td>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Copyright &copy; Motorcycle Mechanics Training</td>
+                            <!-- The cell below merges two rows -->
+                            <td rowspan="2" style="text-align: right;">
+                                <span class="bold italic">
+                                    All<br />Rights<br />Reserved
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <img src="../images/CentriqLogo.png" style="height: 25px" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </div>
+
 
 
 

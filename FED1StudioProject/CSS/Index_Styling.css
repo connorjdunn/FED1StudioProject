@@ -99,6 +99,10 @@ h1 {
 
 /*Gallery Items*/
 
+#galleryBackground {
+    background-color: #6B705C;
+}
+
 .galleryArticle {
     text-align: center;
 }
@@ -111,7 +115,7 @@ div.galleryItem {
 }
 
     div.galleryItem:hover {
-        border: 1px solid lemonchiffon;
+        border: 1px solid black;
     }
 
     div.galleryItem img {
@@ -131,7 +135,7 @@ div.galleryItem {
 
 .galleryItem {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     background-color: #fff;
 }
@@ -142,7 +146,7 @@ div.galleryItem {
 
     /* On mouse-over, add a deeper shadow */
     .galleryItem:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
     }
 
 /* Add some padding inside the card container */
@@ -206,7 +210,7 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #DDBEA9;
+    background-color: #6B705C;
 }
 
 /*Teams Page*/
